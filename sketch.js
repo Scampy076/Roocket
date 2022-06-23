@@ -5,7 +5,7 @@ function setup() {
 }
 
 let xPos = 1200;
-let yPos = 1000;
+let yPos = 1800;
 
 
 function draw(){
@@ -61,32 +61,26 @@ circle(190, 320 - 100, 40);
         
     
         let naam1 = "S";
-        fill("lightblue")
         textSize(100);
         text("S", xPos + 60, yPos - 425);
     
         let naam2 = "p";
-        fill("lightblue")
         textSize(80);
         text("p", xPos + 71.5, yPos - 360);
     
         let naam3 = "a";
-        fill("lightblue")
         textSize(80);
         text("a", xPos + 71.5, yPos - 295);
     
         let naam4 = "c";
-        fill("lightblue")
         textSize(80);
         text("c", xPos + 71.5, yPos - 230);
     
         let naam5 = "e";
-        fill("lightblue")
         textSize(80);
         text("e", xPos + 71.5, yPos - 165);
     
         let naam6 = "X";
-        fill("lightblue")
         textSize(100);
         text("X", xPos + 60, yPos - 90);
 
