@@ -9,6 +9,7 @@ let yPos = 1800;
 
 
 function draw(){
+background("darkblue");
 noStroke();
 circle(190, 320, 100);
 circle(190, 320 - 60, 70);
