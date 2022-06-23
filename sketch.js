@@ -2,10 +2,13 @@ function setup() {
     createCanvas(1500, 1000);
     background("darkblue");
     angleMode(DEGREES);
-         
-let xPos = 1200;
-let yPos = 750;
+}
 
+let xPos = 1200;
+let yPos = 1000;
+
+
+function draw(){
 noStroke();
 circle(190, 320, 100);
 circle(190, 320 - 60, 70);
@@ -25,10 +28,8 @@ circle(190, 320 - 100, 40);
         noStroke();
         rect(xPos - 20, yPos, 240, 1000);
     
-        stroke(51);
-    
     fill("red");
-    
+    stroke(51)
     triangle(xPos - 20, yPos, xPos + 220, yPos, xPos + 100, yPos + 220);
     
     fill("orange");
@@ -88,6 +89,8 @@ circle(190, 320 - 100, 40);
         fill("lightblue")
         textSize(100);
         text("X", xPos + 60, yPos - 90);
+
+        yPos = yPos - 3
     }
 
 
